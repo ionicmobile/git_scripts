@@ -3,11 +3,11 @@ $LOAD_PATH.push File.expand_path("../lib", __FILE__)
 require "pivotal_git_scripts/version"
 
 Gem::Specification.new do |s|
-  s.name        = "pivotal_git_scripts"
+  s.name        = "ionic_git_scripts"
   s.version     = PivotalGitScripts::VERSION
-  s.authors     = ["Pivotal Labs"]
-  s.email       = ["gems@pivotallabs.com"]
-  s.homepage    = "http://github.com/pivotal/git_scripts"
+  s.authors     = ["Victor Prechtel"]
+  s.email       = ["vprechtel@asynchrony.com"]
+  s.homepage    = "http://github.com/ionicmobile/git_script"
   s.summary     = %q{Developer git workflow convenience scripts}
   s.description = %q{These scripts are helpers for managing developer workflow when using git repos hosted on GitHub.}
 
