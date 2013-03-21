@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = PivotalGitScripts::VERSION
   s.authors     = ["Victor Prechtel"]
   s.email       = ["vprechtel@asynchrony.com"]
-  s.homepage    = "http://github.com/ionicmobile/git_script"
+  s.homepage    = "http://github.com/ionicmobile/git_scripts"
   s.summary     = %q{Developer git workflow convenience scripts}
   s.description = %q{These scripts are helpers for managing developer workflow when using git repos hosted on GitHub.}
 
