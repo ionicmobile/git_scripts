@@ -106,6 +106,8 @@ def set_git_config(global_config_string, options)
     value = value ? %Q{#{key} "#{value}"} : "--unset #{key}"
     system(%Q{git config#{global_config_string} #{value}})
   end
+  system(%x{launchctl stop org.openbsd.ssh-agent})
+  system(%x{launchctl start org.openbsd.ssh-agent})
 end
 
 def report_git_settings(git_dir, key)
